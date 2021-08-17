@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHPS - Events</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2,p {
+            margin-left: 10px
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;z-index: 2;top: 0px;">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Glen Huntly Primary School(GHPS)</a>
+        </div>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav">
+                <li><a href="about.html">About</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="#">Subjects</a></li>
+                <li><a href="#">Maths Games</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1><img src="ghps-logo.svg" width="80px" id="logo">Events</h1>
+    <h2>Swimming Carnival</h2>
+    <img style="float: right;margin: 10px;" class="img-responsive col-lg-8 col-md-10 col-sm-12 col-xs-12" data-toggle="modal" data-target="#swim-pop" src="swim.jpg">
+    <p>The Swimming Carnival is for Grades 3 - 6 where they compete against their age group &amp; their gender (students have the option to compete because not everyone can swim in deep water) in different events such as 50m feestyle, 50m backstroke, 100m freestyle, etc. The top 4 in each event within their group will get house points and which ever house gains the most points at the end wins the swimming carnival but before that each house says it's chant and the teachers judge which house sang the loudest and that house gets the spirit cup.<a href="#" data-target="#hp" data-toggle="modal">Learn more about house points</a></p>
+
+    <h2>Cross Country</h2>
+    <p>In the Cross Country event Grades 3 compete against their age group &amp; their gender (all students have to compete) and run 2 laps around Lord Reserve, a park next to the school's senior side, and the students have to run 2-3 laps based on age group (1 lap = 1km). The top 4 in each group will get house points and which ever house gains the most points at the end wins crosss country but before that each house says it's chant and the teachers judge which house sang the loudest and that house gets the spirit cup.<a href="#" data-target="#hp" data-toggle="modal">Learn more about house points</a></p>
+
+    <h2>House Athletics</h2>
+    <p>In the Cross Country event Grades 3 compete against their age group &amp; their gender (all students who bring back the form that will be sent out before will compete) in various events inculing vortex &amp; shotput throw, long &amp; triple jump, and the 100m and 500m races. The top 4 (top 3 will get a badge) in each group will get house points and which ever house gains the most points at the end wins crosss country but before that each house says it's chant and the teachers judge which house sang the loudest and that house gets the spirit cup.<a href="#" data-target="#hp" data-toggle="modal">Learn more about house points</a></p>
+    
+    <div class="modal fade" id="swim-pop">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Swimming Carnival</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="swim.jpg" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hp">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">House Points</h4>
+                </div>
+                <div class="modal-body">
+                    <label class="text-info">In GHPS, there are 4 houses: <span class="text-danger">Flinders,</span> <span class="text-warning">Hume,</span> <span class="text-success">Mitchell,</span> and <span class="text-primary">Batman</span>. Each student is assigned to one house (siblings are in the same house) and any house will gain points if a teacher sees good behavior/focus in one of the students in that house and the teacher can also choose how many house points their house gets (The value is usally ~1000-100000 points). House points can also be earned through events, with usally the top 4 gaing points. At the end of the school year Grade 6s will calculate the total amount of points in each house and the winning house will be anounced.</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
